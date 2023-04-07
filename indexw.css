@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.slide img{
+	height: 100vh;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card img{
+	height: 10rem
+}
+.img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.img img{
+	height: 20rem
+}
+#contact{
+	background-color:skyblue ;
+}
+#about{
+	background-color:pink;
+}
+.navbar{
+	/* border:1px solid red !important; */
+	position: fixed !important;
+	z-index: 1000 !important;
+	width: 100% !important;
+
+}
